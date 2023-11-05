@@ -1,7 +1,7 @@
 import os
 from PIL import Image, ImageStat
 
-image_folder = r'C:\Users\GetDo\Project\NN\archive'
+image_folder = r'C:\Project\NN\archive'
 image_files = [_ for _ in os.listdir(image_folder) if _.endswith('jpg')]
 
 cont = 0
