@@ -5,8 +5,8 @@ from PIL import Image
 
 t1 = time.perf_counter()
 
-image_folder = r'C:\Users\GetDo\Project\NN\archive'
-image_folder_target = r'C:\Users\GetDo\Project\NN\Resized'
+image_folder = r'C:\Project\NN\archive'
+image_folder_target = r'C:\Project\NN\Resized'
 image_files = [_ for _ in os.listdir(image_folder) if _.endswith('jpg')]
 
 size = (28, 28)
