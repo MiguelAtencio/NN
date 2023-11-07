@@ -23,7 +23,7 @@ def process_image_bndw(img):
 #with concurrent.futures.ProcessPoolExecutor() as executor:
 #    executor.map(process_image_bndw, image_files)
 
-#FThe multiprocessing is still not working
+
 
 
 for image in image_files:
