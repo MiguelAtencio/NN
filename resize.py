@@ -21,7 +21,7 @@ def process_image_resize(img):
 #with concurrent.futures.ProcessPoolExecutor() as executor:
 #    executor.map(process_image_resize, image_files)
 
-#For some reason the multiprocess didnt work
+
 
 
 for image in image_files:
